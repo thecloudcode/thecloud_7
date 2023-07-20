@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "thecloud",
+    "slug": "thecloud",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon7.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.thecloudcode.thecloud"
+    },
+    "android": {"permissions": ["NOTIFICATIONS"],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.thecloudcode.thecloud"
+    },
+    "web": {
+      "favicon": "./assets/favicon2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ecf1941f-c56f-4d22-a7ce-c67dbc5a9d34"
+      }
+    }
+  }
+}
