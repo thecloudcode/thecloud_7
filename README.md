@@ -10,3 +10,6 @@ A College-based Dating Application, where we calculate three parameters: Number 
 
 ![Image](UI.png)
 ![Image](UI2.png)
+
+```sh
+npx expo start
